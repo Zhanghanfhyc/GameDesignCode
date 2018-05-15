@@ -1,0 +1,10 @@
+{
+  "width": 10,
+  "height": 10,
+  "players": 2,
+  "hexSize": 60,
+  "resources": [],
+  "entities": [],
+  "terrain": {},
+  "startingResources": {}
+}
