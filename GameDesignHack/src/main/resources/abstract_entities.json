@@ -9,7 +9,7 @@
     "cost": {
       "wood": 50,
       "gold": 100
-    }
+    },
     "_actions": [
       "Generate[food:20]"
     ]
