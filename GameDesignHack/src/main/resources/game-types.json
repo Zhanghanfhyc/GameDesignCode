@@ -45,7 +45,7 @@
       "Build[blue_Factory]",
       "Build[blue_CavalryCamp]",
       "Mine[wood:10]",
-      "Mine[rock:10]"
+      "Mine[gold:10]"
     ]
   },
   {
@@ -61,7 +61,7 @@
       "Build[blue_Factory]",
       "Build[blue_CavalryCamp]",
       "Mine[wood:10]",
-      "Mine[rock:10]"
+      "Mine[gold:10]"
     ]
   },
 
