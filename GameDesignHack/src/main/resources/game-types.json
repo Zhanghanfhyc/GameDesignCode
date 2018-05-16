@@ -1,9 +1,9 @@
 [
   {
-    "name":"blue_worker",
-    "_extends":"abstract_worker",
+    "name":"blue_solider",
+    "_extends":"abstract_solider",
     "sprite": {
-      "image": "units/blue_worker",
+      "image": "units/blue_shield",
       "scale": 0.75
     },
     "_actions": [
@@ -36,7 +36,7 @@
     "name":"blue_famer",
     "_extends":"abstract_famer",
     "sprite": {
-      "image": "units/blue_ruler",
+      "image": "units/blue_worker",
       "scale": 0.75
     },
     "_actions": [
@@ -52,24 +52,24 @@
     "name":"red_famer",
     "_extends":"abstract_famer",
     "sprite": {
-      "image": "units/red_ruler",
+      "image": "units/red_worker",
       "scale": 0.75
     },
     "_actions": [
       "Move",
-      "Build[blue_Barrack]",
-      "Build[blue_Factory]",
-      "Build[blue_CavalryCamp]",
+      "Build[red_Barrack]",
+      "Build[red_Factory]",
+      "Build[red_CavalryCamp]",
       "Mine[wood:10]",
       "Mine[gold:10]"
     ]
   },
 
   {
-    "name":"red_worker",
-    "_extends":"abstract_worker",
+    "name":"red_solider",
+    "_extends":"abstract_solider",
     "sprite": {
-      "image": "units/red_worker",
+      "image": "units/red_shield",
       "scale": 0.75
     },
     "_actions": [
@@ -99,7 +99,7 @@
   {
     "name": "blue_Barrack",
     "sprite": {
-      "image": "buildings/medieval_farm",
+      "image": "buildings/medieval_archery_blue",
       "scale": 0.75
     },
     "properties": {
@@ -111,14 +111,14 @@
       "rock": 10
     },
     "_actions": [
-      "Build[blue_worker]",
+      "Build[blue_solider]",
       "MeleeAttackAction"
     ]
   },
   {
     "name": "red_Barrack",
     "sprite": {
-      "image": "buildings/medieval_farm",
+      "image": "buildings/medieval_archery_red",
       "scale": 0.75
     },
     "properties": {
@@ -130,14 +130,14 @@
       "rock": 10
     },
     "_actions": [
-      "Build[red_worker]",
+      "Build[red_solider]",
       "MeleeAttackAction"
     ]
   },
   {
     "name": "blue_Factory",
     "sprite": {
-      "image": "buildings/medieval_blacksmith",
+      "image": "buildings/medieval_blacksmith_blue",
       "scale": 0.75
     },
     "properties": {
@@ -156,7 +156,7 @@
   {
     "name": "red_Factory",
     "sprite": {
-      "image": "buildings/medieval_blacksmith",
+      "image": "buildings/medieval_blacksmith_red",
       "scale": 0.75
     },
     "properties": {
@@ -175,7 +175,7 @@
   {
   "name": "blue_CavalryCamp",
   "sprite": {
-    "image": "buildings/medieval_cabin",
+    "image": "buildings/medieval_lumber_blue",
     "scale": 0.75
   },
   "properties": {
@@ -194,7 +194,7 @@
   {
     "name": "red_CavalryCamp",
     "sprite": {
-      "image": "buildings/medieval_cabin",
+      "image": "buildings/medieval_lumber_red",
       "scale": 0.75
     },
     "properties": {
@@ -233,7 +233,7 @@
   {
     "name": "blue_Castle",
     "sprite": {
-      "image": "buildings/medieval_largeCastle",
+      "image": "buildings/medieval_largeCastle_Blue",
       "scale": 0.75
     },
     "properties": {
