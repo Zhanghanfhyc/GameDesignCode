@@ -101,7 +101,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 60,
+      "health": 10,
       "defence": 3
     },
     "cost": {
@@ -120,7 +120,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 60,
+      "health": 10,
       "defence": 3
     },
     "cost": {
@@ -139,7 +139,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 60,
+      "health": 8,
       "defence": 3
     },
     "cost": {
@@ -158,7 +158,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 60,
+      "health": 8,
       "defence": 3
     },
     "cost": {
@@ -177,7 +177,7 @@
     "scale": 0.75
   },
   "properties": {
-    "health": 60,
+    "health": 15,
     "defence": 3
   },
   "cost": {
@@ -196,7 +196,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 60,
+      "health": 15,
       "defence": 3
     },
     "cost": {
@@ -215,7 +215,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 10,
+      "health": 20,
       "defence": 3
     },
     "cost": {
@@ -235,7 +235,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 10,
+      "health": 20,
       "defence": 1
     },
     "cost": {
