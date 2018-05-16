@@ -22,7 +22,7 @@
         "x": 2,
         "z": 2
       },
-      "owner": 1,
+      "owner": 0,
       "properties": {
         "health": 10
       }
@@ -36,6 +36,17 @@
       "owner": 0,
       "properties": {
         "health": 5
+      }
+    },
+    {
+      "type": "red_Castle",
+      "location": {
+        "x": 0,
+        "z": 4
+      },
+      "owner": 1,
+      "properties": {
+        "health": 10
       }
     }
   ],

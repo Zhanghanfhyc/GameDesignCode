@@ -8,8 +8,8 @@
   "aiFileName":"game-ai.json",
   "ruleFileName":"game-rules.json",
   "rules":[
-    "PlayerFilter[0:KeepAlive[red_Castle:1]]",
-    "PlayerFilter[1:KeepAlive[blue_Castle:1]]"
+    "PlayerFilter[0:KeepAlive[blue_Castle:1]]",
+    "PlayerFilter[1:KeepAlive[red_Castle:1]]"
   ]
 
 }
