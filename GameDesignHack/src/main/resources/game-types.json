@@ -40,7 +40,6 @@
       "scale": 0.75
     },
     "_actions": [
-      "Move",
       "Build[blue_Barrack]",
       "Build[blue_Factory]",
       "Build[blue_CavalryCamp]",
@@ -56,7 +55,6 @@
       "scale": 0.75
     },
     "_actions": [
-      "Move",
       "Build[red_Barrack]",
       "Build[red_Factory]",
       "Build[red_CavalryCamp]",
@@ -108,7 +106,7 @@
     },
     "cost": {
       "wood": 10,
-      "rock": 10
+      "gold":10
     },
     "_actions": [
       "Build[blue_solider]",
@@ -126,8 +124,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 0
+
     },
     "_actions": [
       "Build[red_solider]",
