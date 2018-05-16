@@ -13,11 +13,57 @@
   },
 
   {
+    "name":"blue_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/blue_shield_2",
+      "scale": 0.35
+    },
+    "_actions":
+    [
+
+    ]
+  },
+
+  {
+    "name":"red_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/red_shield_2",
+      "scale": 0.35
+    },
+    "_actions":
+    [
+
+    ]
+  },
+  {
     "name":"blue_cavalry",
     "_extends":"abstract_cavalry",
     "sprite": {
       "image": "units/blue_ruler",
       "scale": 0.75
+    },
+    "_actions":
+    [
+      "UpgradeAction[blue_cavalry:blue_cavalry_2]"
+    ]
+  },
+  {
+    "name":"blue_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/blue_spear_2",
+      "scale": 0.35
+    }
+
+  },
+  {
+    "name":"red_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/red_spear_2",
+      "scale": 0.35
     }
 
   },
@@ -29,8 +75,24 @@
       "scale": 0.75
     },
     "_actions": [
-
+      "UpgradeAction[blue_archer:blue_archer_2]"
     ]
+  },
+  {
+    "name":"blue_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/blue_shepard_2",
+      "scale": 0.35
+    }
+  },
+  {
+    "name":"red_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/red_shepard_2",
+      "scale": 0.35
+    }
   },
   {
     "name":"blue_famer",
@@ -71,7 +133,7 @@
       "scale": 0.75
     },
     "_actions": [
-
+      "UpgradeAction[red_solider:red_solider_2]"
     ]
   },
   {
@@ -80,7 +142,12 @@
     "sprite": {
       "image": "units/red_ruler",
       "scale": 0.75
-    }
+    },
+    "_actions":
+    [
+      "UpgradeAction[red_cavalry:red_cavalry_2]"
+    ]
+
 
   },
   {
@@ -91,7 +158,7 @@
       "scale": 0.75
     },
     "_actions": [
-
+      "UpgradeAction[red_archer:red_archer_2]"
     ]
   },
   {
