@@ -21,7 +21,6 @@ public class GameAttack extends MeleeAttackAction {
 
         public Order generateOrder(CubeCoordinate co, GameState s) {
         Entity e = s.getEntityAt(co);
-        System.out.println("attack");
         if (e == null) {
             return null;
         }
