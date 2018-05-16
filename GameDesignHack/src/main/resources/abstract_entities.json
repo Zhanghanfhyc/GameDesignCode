@@ -117,7 +117,7 @@
   },
 /////////////////////////////
   {
-    "name": "abstract_worker",
+    "name": "abstract_solider",
     "properties":{
       "movement":1,
       "health":5,
