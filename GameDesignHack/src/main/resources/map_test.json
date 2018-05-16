@@ -26,6 +26,17 @@
       "properties": {
         "health": 5
       }
+    },
+    {
+      "type": "red_famer",
+      "location": {
+        "x": 2,
+        "z": 1
+      },
+      "owner": 1,
+      "properties": {
+        "health": 3
+      }
     }
   ],
   "terrain": {

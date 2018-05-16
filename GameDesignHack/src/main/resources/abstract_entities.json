@@ -4,10 +4,11 @@
   {
     "name": "abstract_solider",
     "properties":{
-      "movement":1,
-      "health":5,
-      "atkMelee": 4,
-      "defMelee":0,
+      "movement": 1,
+      "health": 5,
+      "attackRange": 2,
+      "atkMelee": 1,
+      "atkRanged": 4,
       "defRanged": 0,
       "ter-grass": 1
     },
@@ -20,9 +21,11 @@
     "name": "abstract_cavalry",
     "properties":{
       "movement":3,
-      "health":10,
-      "defMelee":5,
-      "defRanged": 0,
+      "health": 6,
+      "atkRanged": 4,
+      "atkMelee": 1,
+      "defMelee":1,
+      "defRanged": 1,
       "ter-grass": 1
     },
     "_actions": [
@@ -34,14 +37,16 @@
     "name": "abstract_famer",
     "properties":{
       "movement":1,
-      "health":5,
+      "health":3,
+      "atkMelee": 1,
       "defMelee":1,
-      "defRanged": 0,
-      "ter-grass": 1,
+      "atkRanged": 3,
+      "defRanged": 2,
       "food":1
     },
     "_actions": [
-      "game_move"
+      "game_move",
+      "GameAttack"
 
     ]
   },
@@ -53,13 +58,14 @@
     "properties":{
       "movement":1,
       "health":5,
+      "atkMelee": 4,
       "defMelee":4,
       "defRanged": 0,
       "ter-grass": 1
     },
     "_actions": [
       "Move",
-      "GameAttack"
+      "RangeAttackAction"
     ]
   }
 
