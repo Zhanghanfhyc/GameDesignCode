@@ -5,5 +5,5 @@
   {"id": "water", "requiredTags": {}, "image": "terrain/waterHex"},
   {"id": "mountain", "requiredTags": {}, "image": "terrain/oreHex"},
   {"id": "desert", "requiredTags": {}, "image": "terrain/desertHex"},
-  {"id": "forest", "requiredTags": {}, "image": "terrain/woodHex"}
+  {"id": "forest", "requiredTags": {"grass": 1}, "image": "terrain/woodHex"}
 ]

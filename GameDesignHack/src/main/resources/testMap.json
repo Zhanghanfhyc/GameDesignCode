@@ -1,0 +1,72 @@
+{
+  "width": 3,
+  "height": 3,
+  "players": 2,
+  "hexSize": 60,
+  "resources": [],
+  "entities": [
+    {
+      "type": "blue_solider",
+      "location": {
+        "x": 0,
+        "z": 0
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    },
+    {
+      "type": "red_archer",
+      "location": {
+        "x": 1,
+        "z": 0
+      },
+      "owner": 0,
+      "properties": {
+        "health": 5
+      }
+    }
+  ],
+  "terrain": {
+    "plain": [
+      {
+        "x": 0,
+        "z": 0
+      },
+      {
+        "x": 0,
+        "z": 1
+      },
+      {
+        "x": 1,
+        "z": 0
+      },
+      {
+        "x": 1,
+        "z": 1
+      },
+      {
+        "x": 0,
+        "z": 2
+      },
+      {
+        "x": -1,
+        "z": 2
+      },
+      {
+        "x": 2,
+        "z": 0
+      },
+      {
+        "x": 1,
+        "z": 2
+      },
+      {
+        "x": 2,
+        "z": 1
+      }
+    ]
+  },
+  "startingResources": {}
+}
