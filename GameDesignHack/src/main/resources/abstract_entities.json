@@ -37,7 +37,7 @@
       "defMelee":1,
       "defRanged": 0,
       "ter-grass": 1,
-      "food":10
+      "food":4
     },
     "_actions": [
       "game_move",
