@@ -1,7 +1,7 @@
 [
   {
-    "name":"blue_worker",
-    "_extends":"abstract_worker",
+    "name":"blue_solider",
+    "_extends":"abstract_solider",
     "sprite": {
       "image": "units/blue_worker",
       "scale": 0.75
@@ -57,17 +57,17 @@
     },
     "_actions": [
       "Move",
-      "Build[blue_Barrack]",
-      "Build[blue_Factory]",
-      "Build[blue_CavalryCamp]",
+      "Build[red_Barrack]",
+      "Build[red_Factory]",
+      "Build[red_CavalryCamp]",
       "Mine[wood:10]",
       "Mine[rock:10]"
     ]
   },
 
   {
-    "name":"red_worker",
-    "_extends":"abstract_worker",
+    "name":"red_solider",
+    "_extends":"abstract_solider",
     "sprite": {
       "image": "units/red_worker",
       "scale": 0.75
@@ -111,7 +111,7 @@
       "rock": 10
     },
     "_actions": [
-      "Build[blue_worker]",
+      "Build[blue_solider]",
       "MeleeAttackAction"
     ]
   },
@@ -130,7 +130,7 @@
       "rock": 10
     },
     "_actions": [
-      "Build[red_worker]",
+      "Build[red_solider]",
       "MeleeAttackAction"
     ]
   },
