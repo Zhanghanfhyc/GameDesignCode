@@ -6,12 +6,12 @@
       "image": "units/blue_shield",
       "scale": 0.75
     },
-    "_actions": [
-      "Build[blue_archery]",
-      "Build[blue_knightery]"
-
+    "_actions":
+    [
+      "UpgradeAction[blue_solider:blue_solider_2]"
     ]
   },
+
   {
     "name":"blue_cavalry",
     "_extends":"abstract_cavalry",
