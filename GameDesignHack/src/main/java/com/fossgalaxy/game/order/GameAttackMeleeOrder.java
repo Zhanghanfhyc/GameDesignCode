@@ -35,9 +35,7 @@ public class GameAttackMeleeOrder extends AttackOrderMelee {
 
             int dmgToTarget = getDamage(entity, target);
             target.setHealth(target.getHealth() - dmgToTarget);
-
-            int dmgToSelf = getDamage(target, entity)/3;
-             entity.setHealth(entity.getHealth() - dmgToSelf);
+        
 
             //kill the entity if they run out of health.
             //this needs to be done when the order is processed, else it could effect other entities' moves.
