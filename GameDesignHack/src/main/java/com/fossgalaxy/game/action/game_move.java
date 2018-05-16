@@ -45,7 +45,7 @@ public boolean isPossible(Entity entity, GameState s, CubeCoordinate co) {
     @Override
     public boolean isPossible(Entity entity, GameState s) {
         System.out.println(entity.getProperty("food"));
-        entity.setProperty("food",entity.getProperty("food")-1);
+
         return entity.getType().getProperty(MOVEMENT_PROP, 0) >= 1;
     }
 }

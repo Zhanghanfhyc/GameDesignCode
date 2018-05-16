@@ -13,6 +13,10 @@ public class GameMoveOrder extends MoveOrder {
     @Override
     public void doOrder(Entity entity, GameState state) {
         super.doOrder(entity, state);
+        entity.setProperty("food",entity.getProperty("food")-1);
+        if(entity.getProperty("food")<=0)
+        {state.removeEntity(entity);
+        return;}
         System.out.println("food:"+entity.getProperty("food"));
     }
 }
