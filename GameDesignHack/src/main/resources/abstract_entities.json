@@ -27,7 +27,7 @@
     },
     "_actions": [
       "Move",
-      "MeleeAttackAction"
+      "GameAttack"
     ]
   },
   {
@@ -42,7 +42,7 @@
     },
     "_actions": [
       "game_move",
-      "MeleeAttackAction"
+
     ]
   },
 
@@ -59,7 +59,7 @@
     },
     "_actions": [
       "Move",
-      "MeleeAttackAction"
+      "GameAttack"
     ]
   }
 
