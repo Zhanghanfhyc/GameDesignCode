@@ -115,20 +115,50 @@
       "Move"
     ]
   },
+
   {
-    "name": "abstract_famer",
+    "name": "abstract_worker",
     "properties":{
       "movement":1,
       "health":5,
       "defMelee":1,
-      "defMelee": 1,
       "defRanged": 1,
       "ter-grass": 1
     },
     "_actions": [
-      "Move"
+      "Move",
+      "MeleeAttackAction"
     ]
-    }
+    },
+  {
+    "name": "abstract_cavalry",
+    "properties":{
+      "movement":2,
+      "health":10,
+      "defMelee":5,
+      "defRanged": 1,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+    "name": "abstract_archer",
+    "properties":{
+      "movement":1,
+      "health":5,
+      "defMelee":4,
+      "defRanged": 3,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "MeleeAttackAction"
+    ]
+  }
+
 
 
 
