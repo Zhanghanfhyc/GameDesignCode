@@ -215,7 +215,7 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 100,
+      "health": 10,
       "defence": 3
     },
     "cost": {
@@ -235,8 +235,8 @@
       "scale": 0.75
     },
     "properties": {
-      "health": 100,
-      "defence": 3
+      "health": 10,
+      "defence": 1
     },
     "cost": {
       "wood": 50,
