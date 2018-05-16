@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Barrack",
+    "sprite": {
+      "image": "buildings/medieval_farm",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 60,
+      "Attack": 5,
+      "range": 1
+    },
+    "cost": {
+      "wood": 10,
+      "rock": 10
+    },
+    "_actions": [
+      "Train one [soldier]",
+      "Defence",
+      "Update to [Archer]",
+      "Update to [Cavalry]"
+    ]
+  },
+  {
+    "name": "Shipyard",
+    "sprite": {
+      "image": "buildings/medieval_archery",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 50,
+      "Attack": 3,
+      "range": 1
+    },
+    "cost": {
+      "wood": 20,
+      "rock": 30
+    },
+    "_actions": [
+      "Train one [boat]",
+      "Defence",
+      "Update to [Battleship] "
+    ]
+  },
+  {
+    "name": "Machinery Factory",
+    "sprite": {
+      "image": "buildings/medieval_blacksmith",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 80,
+      "Attack": 8,
+      "range": 2
+    },
+    "cost": {
+      "wood": 40,
+      "rock": 40
+    },
+    "_actions": [
+      "Train one [Catapult]",
+      "Defence"
+    ]
+  },
+  {
+    "name": "Castle",
+    "sprite": {
+      "image": "buildings/medieval_largeCastle",
+      "scale": 0.75
+    },
+    "properties": {
+      "health": 100,
+      "Attack": 10,
+      "range": 3
+    },
+    "cost": {
+      "wood": 50,
+      "rock": 50
+    },
+    "_actions": [
+      "Build [Barrack]",
+      "Build [Machinery Factory]",
+      "Build [Shipyard]",
+      "Defence"
+    ]
+  }
+
+
+
+]

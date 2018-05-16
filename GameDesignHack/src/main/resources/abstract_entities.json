@@ -9,7 +9,7 @@
     "cost": {
       "wood": 50,
       "gold": 100
-    }
+    },
     "_actions": [
       "Generate[food:20]"
     ]
@@ -115,20 +115,60 @@
       "Move"
     ]
   },
+/////////////////////////////
+  {
+    "name": "abstract_worker",
+    "properties":{
+      "movement":1,
+      "health":5,
+      "defMelee":1,
+      "defRanged": 0,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "MeleeAttackAction"
+    ]
+    },
+  {
+    "name": "abstract_cavalry",
+    "properties":{
+      "movement":3,
+      "health":10,
+      "defMelee":5,
+      "defRanged": 0,
+      "ter-grass": 1
+    },
+    "_actions": [
+      "Move",
+      "MeleeAttackAction"
+    ]
+  },
   {
     "name": "abstract_famer",
     "properties":{
       "movement":1,
       "health":5,
       "defMelee":1,
-      "defMelee": 1,
-      "defRanged": 1,
+      "defRanged": 0,
+      "ter-grass": 1
+    }
+  },
+  {
+    "name": "abstract_archer",
+    "properties":{
+      "movement":1,
+      "health":5,
+      "defMelee":4,
+      "defRanged": 0,
       "ter-grass": 1
     },
     "_actions": [
-      "Move"
+      "Move",
+      "MeleeAttackAction"
     ]
-    }
+  }
+
 
 
 
