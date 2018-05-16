@@ -41,7 +41,7 @@
       "food":1
     },
     "_actions": [
-      "game_move",
+      "game_move"
 
     ]
   },
