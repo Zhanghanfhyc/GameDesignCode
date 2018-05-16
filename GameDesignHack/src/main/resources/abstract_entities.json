@@ -13,7 +13,7 @@
     },
     "_actions": [
       "Move",
-      "MeleeAttackAction"
+      "GameAttack"
     ]
     },
   {
