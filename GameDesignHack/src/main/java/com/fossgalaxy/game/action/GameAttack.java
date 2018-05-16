@@ -1,8 +1,11 @@
 package com.fossgalaxy.game.action;
 
+import com.fossgalaxy.game.order.GameAttackMeleeOrder;
 import com.fossgalaxy.game.order.GameMoveOrder;
 import com.fossgalaxy.games.tbs.GameState;
 import com.fossgalaxy.games.tbs.actions.MeleeAttackAction;
+import com.fossgalaxy.games.tbs.entity.Entity;
+import com.fossgalaxy.games.tbs.order.AttackOrderMelee;
 import com.fossgalaxy.games.tbs.order.Order;
 import org.codetome.hexameter.core.api.CubeCoordinate;
 
@@ -15,7 +18,17 @@ public class GameAttack extends MeleeAttackAction {
     }
 
     @Override
-    public Order generateOrder(CubeCoordinate co, GameState s) {
-        return new GameMoveOrder(co);
+
+        public Order generateOrder(CubeCoordinate co, GameState s) {
+        Entity e = s.getEntityAt(co);
+        if (e == null) {
+            return null;
+        }
+
+        return new GameAttackMeleeOrder(e.getID());
     }
-}
+        }
+
+
+
+
