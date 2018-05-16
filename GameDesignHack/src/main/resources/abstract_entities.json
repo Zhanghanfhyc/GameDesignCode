@@ -121,7 +121,8 @@
     "properties":{
       "movement":1,
       "health":5,
-      "defMelee":1,
+      "atkMelee": 4,
+      "defMelee":0,
       "defRanged": 0,
       "ter-grass": 1
     },
