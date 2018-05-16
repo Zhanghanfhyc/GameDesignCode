@@ -9,11 +9,12 @@
       "atkMelee": 4,
       "defMelee":0,
       "defRanged": 0,
-      "ter-grass": 1
+      "ter-grass": 1,
+      "food":2
     },
     "_actions": [
       "Move",
-      "MeleeAttackAction"
+      "GameAttack"
     ]
     },
   {
@@ -23,7 +24,8 @@
       "health":10,
       "defMelee":5,
       "defRanged": 0,
-      "ter-grass": 1
+      "ter-grass": 1,
+      "food":2
     },
     "_actions": [
       "Move",
@@ -38,7 +40,7 @@
       "defMelee":1,
       "defRanged": 0,
       "ter-grass": 1,
-      "food":1
+      "food":2
     },
     "_actions": [
       "game_move"

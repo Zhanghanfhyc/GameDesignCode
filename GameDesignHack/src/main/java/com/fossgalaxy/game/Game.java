@@ -6,7 +6,7 @@ import com.fossgalaxy.games.tbs.io.SettingsIO;
 public class Game {
 	public static void main(String[] args) {
 
-        App.run(SettingsIO.buildWithExtras("com.fossgalaxy.game"), "game.json", "map_test.json", "Player", "Player","Player");
+        App.run(SettingsIO.buildWithExtras("com.fossgalaxy.game"), "game.json", "WinConditionTest.json", "Player", "Player","Player");
 
     }
 

@@ -15,6 +15,7 @@ public class GameAttackMeleeOrder extends AttackOrderMelee {
     @Override
     public void doOrder(Entity entity, GameState state) {
 
+        System.out.println("preFood"+entity.getProperty("food"));
             Entity target = state.getEntityByID(targetID);
             if (target == null) {
                 return;
@@ -35,14 +36,18 @@ public class GameAttackMeleeOrder extends AttackOrderMelee {
             int dmgToTarget = getDamage(entity, target);
             target.setHealth(target.getHealth() - dmgToTarget);
 
+            int dmgToSelf = getDamage(target, entity)/3;
+             entity.setHealth(entity.getHealth() - dmgToSelf);
+
             //kill the entity if they run out of health.
             //this needs to be done when the order is processed, else it could effect other entities' moves.
             //eg, A murders B, C moves into B's space.
             if (target.getHealth() <= 0) {
                 state.removeEntity(target);
+            // grab food
+                entity.setProperty("food",entity.getProperty("food")+target.getProperty("food"));
+                System.out.println("curFood"+entity.getProperty("food"));
 
-                //add XP for killing a unit.
-                entity.setProperty("xp", target.getProperty("xpAward", 0));
             }
 
             //we could have died to...
