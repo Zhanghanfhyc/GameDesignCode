@@ -5,8 +5,7 @@ import com.fossgalaxy.games.tbs.io.SettingsIO;
 
 public class Game {
 	public static void main(String[] args) {
+        App.run(SettingsIO.buildWithExtras("com.fossgalaxy.game"), "game.json", "map_larg.json", "Player", "Player");
 
-        App.run(SettingsIO.buildWithExtras("com.fossgalaxy.game"), "game.json", "map_test.json", "Player", "Player");
     }
-
 }   
