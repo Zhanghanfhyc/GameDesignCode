@@ -8,5 +8,4 @@ public class Game {
         App.run(SettingsIO.buildWithExtras("com.fossgalaxy.game"), "game.json", "map_larg.json", "Player", "Player");
 
     }
-
 }   
