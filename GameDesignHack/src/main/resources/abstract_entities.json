@@ -30,7 +30,7 @@
       "defMelee":5,
       "defRanged": 5,
       "ter-grass": 1,
-      "food":2
+      "food":10
     },
     "_actions": [
       "Move",
@@ -46,7 +46,7 @@
       "defMelee":2,
       "defRanged": 2,
       "ter-grass": 1,
-      "food":2
+      "food":10
     },
     "cost": {
       "wood": 25,
@@ -82,7 +82,7 @@
       "defMelee":2,
       "defRanged": 2,
       "ter-grass": 1,
-      "food":2
+      "food":10
     },
     "cost": {
       "wood": 10,
