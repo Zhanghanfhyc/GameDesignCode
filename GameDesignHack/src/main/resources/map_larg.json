@@ -251,6 +251,28 @@
       "properties": {
         "health": 20
       }
+    },
+    {
+      "type": "red_famer",
+      "location": {
+        "x": -4,
+        "z": 13
+      },
+      "owner": 1,
+      "properties": {
+        "health": 3
+      }
+    },
+    {
+      "type": "blue_famer",
+      "location": {
+        "x": 12,
+        "z": 3
+      },
+      "owner": 0,
+      "properties": {
+        "health": 3
+      }
     }
   ],
   "terrain": {
@@ -1342,13 +1364,13 @@
     ]
   },
   "startingResources": {
-    "0":{
-      "gold":80,
-      "wood":80
+    "0": {
+      "gold": 80,
+      "wood": 80
     },
-    "1":{
-      "gold":80,
-      "wood":80
+    "1": {
+      "gold": 80,
+      "wood": 80
     }
   }
 }

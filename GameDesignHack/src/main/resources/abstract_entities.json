@@ -2,14 +2,33 @@
 
 /////////////////////////////
   {
-    "name": "abstract_solider",
+  "name": "abstract_solider",
+  "properties":{
+    "movement":1,
+    "health":7,
+    "atkMelee": 5,
+    "defMelee":3,
+    "defRanged": 3,
+    "ter-grass": 1,
+    "food":2
+  },
+    "cost": {
+      "wood": 30,
+      "gold": 10
+    },
+  "_actions": [
+    "Move",
+    "GameAttack"
+  ]
+},
+  {
+    "name": "abstract_solider_2",
     "properties":{
-      "movement":1,
-      "health":7,
-      "atkMelee": 1,
-      "defMelee":0,
-      "attackRange": 5,
-      "defRanged": 3,
+      "movement":2,
+      "health":15,
+      "atkMelee": 8,
+      "defMelee":5,
+      "defRanged": 5,
       "ter-grass": 1,
       "food":10
     },
@@ -17,18 +36,37 @@
       "Move",
       "GameAttack"
     ]
-    },
+  },
   {
     "name": "abstract_cavalry",
     "properties":{
       "movement":3,
       "health":6,
-      "atkMelee": 1,
-      "defMelee":0,
-      "attackRange": 4,
+      "atkMelee": 5,
+      "defMelee":2,
       "defRanged": 2,
       "ter-grass": 1,
       "food":10
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 15
+    },
+    "_actions": [
+      "Move",
+      "GameAttack"
+    ]
+  },
+  {
+    "name": "abstract_cavalry_2",
+    "properties":{
+      "movement":4,
+      "health":13,
+      "atkMelee": 8,
+      "defMelee":4,
+      "defRanged": 4,
+      "ter-grass": 1,
+      "food":2
     },
     "_actions": [
       "Move",
@@ -40,12 +78,15 @@
     "properties":{
       "movement":1,
       "health":3,
-      "atkMelee": 1,
-      "defMelee":0,
-      "attackRange": 3,
+      "atkMelee": 3,
+      "defMelee":2,
       "defRanged": 2,
       "ter-grass": 1,
       "food":10
+    },
+    "cost": {
+      "wood": 10,
+      "gold": 10
     },
     "_actions": [
       "game_move",
@@ -61,9 +102,31 @@
       "movement": 1,
       "health": 6,
       "attackRange": 3,
-      "atkMelee": 1,
+      "atkMelee": 6,
+      "defMelee":1,
       "atkRanged": 6,
       "defRanged": 1,
+      "ter-grass": 1
+    },
+    "cost": {
+      "wood": 35,
+      "gold": 10
+    },
+    "_actions": [
+      "Move",
+      "RangeAttackAction"
+    ]
+  },
+  {
+    "name": "abstract_archer_2",
+    "properties":{
+      "movement": 1,
+      "health": 10,
+      "attackRange": 4,
+      "atkMelee": 10,
+      "defMelee":2,
+      "atkRanged": 10,
+      "defRanged": 2,
       "ter-grass": 1
     },
     "_actions": [

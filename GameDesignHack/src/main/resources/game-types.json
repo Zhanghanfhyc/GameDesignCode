@@ -4,7 +4,7 @@
     "_extends":"abstract_solider",
     "sprite": {
       "image": "units/blue_shield",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions":
     [
@@ -13,11 +13,57 @@
   },
 
   {
+    "name":"blue_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/blue_shield_2",
+      "scale": 0.35
+    },
+    "_actions":
+    [
+
+    ]
+  },
+
+  {
+    "name":"red_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/red_shield_2",
+      "scale": 0.35
+    },
+    "_actions":
+    [
+
+    ]
+  },
+  {
     "name":"blue_cavalry",
     "_extends":"abstract_cavalry",
     "sprite": {
       "image": "units/blue_ruler",
-      "scale": 0.75
+      "scale": 1.5
+    },
+    "_actions":
+    [
+      "UpgradeAction[blue_cavalry:blue_cavalry_2]"
+    ]
+  },
+  {
+    "name":"blue_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/blue_spear_2",
+      "scale": 0.35
+    }
+
+  },
+  {
+    "name":"red_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/red_spear_2",
+      "scale": 0.35
     }
 
   },
@@ -26,18 +72,34 @@
     "_extends":"abstract_archer",
     "sprite": {
       "image": "units/blue_spear",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
-
+      "UpgradeAction[blue_archer:blue_archer_2]"
     ]
+  },
+  {
+    "name":"blue_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/blue_shepard_2",
+      "scale": 0.35
+    }
+  },
+  {
+    "name":"red_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/red_shepard_2",
+      "scale": 0.35
+    }
   },
   {
     "name":"blue_famer",
     "_extends":"abstract_famer",
     "sprite": {
       "image": "units/blue_worker",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "Build[blue_Barrack]",
@@ -52,7 +114,7 @@
     "_extends":"abstract_famer",
     "sprite": {
       "image": "units/red_worker",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "Build[red_Barrack]",
@@ -68,10 +130,10 @@
     "_extends":"abstract_solider",
     "sprite": {
       "image": "units/red_shield",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
-
+      "UpgradeAction[red_solider:red_solider_2]"
     ]
   },
   {
@@ -79,8 +141,13 @@
     "_extends":"abstract_cavalry",
     "sprite": {
       "image": "units/red_ruler",
-      "scale": 0.75
-    }
+      "scale": 1.5
+    },
+    "_actions":
+    [
+      "UpgradeAction[red_cavalry:red_cavalry_2]"
+    ]
+
 
   },
   {
@@ -88,10 +155,10 @@
     "_extends":"abstract_archer",
     "sprite": {
       "image": "units/red_spear",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
-
+      "UpgradeAction[red_archer:red_archer_2]"
     ]
   },
   {
@@ -105,8 +172,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "gold":10
+      "wood": 25,
+      "gold": 50
     },
     "_actions": [
       "Build[blue_solider]",
@@ -124,8 +191,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 0
-
+      "wood": 25,
+      "gold": 50
     },
     "_actions": [
       "Build[red_solider]",
@@ -143,8 +210,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 25,
+      "gold": 70
     },
     "_actions": [
       "Build[blue_archer]",
@@ -162,8 +229,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 25,
+      "gold": 70
     },
     "_actions": [
       "Build[red_archer]",
@@ -180,10 +247,10 @@
     "health": 15,
     "defence": 3
   },
-  "cost": {
-    "wood": 10,
-    "rock": 10
-  },
+    "cost": {
+      "wood": 30,
+      "gold": 60
+    },
   "_actions": [
     "Build[blue_cavalry]",
     "MeleeAttackAction"
@@ -200,8 +267,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 30,
+      "gold": 60
     },
     "_actions": [
       "Build[red_cavalry]",
@@ -219,8 +286,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 50,
-      "rock": 50
+      "wood": 80,
+      "gold": 80
     },
     "_actions": [
       "Build[red_famer]",
@@ -239,8 +306,8 @@
       "defence": 1
     },
     "cost": {
-      "wood": 50,
-      "rock": 50
+      "wood": 80,
+      "gold": 80
     },
     "_actions": [
       "Build[blue_famer]",
