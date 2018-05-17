@@ -4,7 +4,7 @@
     "_extends":"abstract_solider",
     "sprite": {
       "image": "units/blue_shield",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions":
     [
@@ -42,7 +42,7 @@
     "_extends":"abstract_cavalry",
     "sprite": {
       "image": "units/blue_ruler",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions":
     [
@@ -72,7 +72,7 @@
     "_extends":"abstract_archer",
     "sprite": {
       "image": "units/blue_spear",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "UpgradeAction[blue_archer:blue_archer_2]"
@@ -99,7 +99,7 @@
     "_extends":"abstract_famer",
     "sprite": {
       "image": "units/blue_worker",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "Build[blue_Barrack]",
@@ -114,7 +114,7 @@
     "_extends":"abstract_famer",
     "sprite": {
       "image": "units/red_worker",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "Build[red_Barrack]",
@@ -130,7 +130,7 @@
     "_extends":"abstract_solider",
     "sprite": {
       "image": "units/red_shield",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "UpgradeAction[red_solider:red_solider_2]"
@@ -141,7 +141,7 @@
     "_extends":"abstract_cavalry",
     "sprite": {
       "image": "units/red_ruler",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions":
     [
@@ -155,7 +155,7 @@
     "_extends":"abstract_archer",
     "sprite": {
       "image": "units/red_spear",
-      "scale": 0.75
+      "scale": 1.5
     },
     "_actions": [
       "UpgradeAction[red_archer:red_archer_2]"
@@ -165,7 +165,7 @@
     "name": "blue_Barrack",
     "sprite": {
       "image": "buildings/medieval_archery_blue",
-      "scale": 0.75
+      "scale": 1.5
     },
     "properties": {
       "health": 10,
@@ -184,7 +184,7 @@
     "name": "red_Barrack",
     "sprite": {
       "image": "buildings/medieval_archery_red",
-      "scale": 0.75
+      "scale": 1.5
     },
     "properties": {
       "health": 10,
@@ -203,7 +203,7 @@
     "name": "blue_Factory",
     "sprite": {
       "image": "buildings/medieval_blacksmith_blue",
-      "scale": 0.75
+      "scale": 1.5
     },
     "properties": {
       "health": 8,
@@ -222,7 +222,7 @@
     "name": "red_Factory",
     "sprite": {
       "image": "buildings/medieval_blacksmith_red",
-      "scale": 0.75
+      "scale": 1.5
     },
     "properties": {
       "health": 8,
@@ -241,7 +241,7 @@
   "name": "blue_CavalryCamp",
   "sprite": {
     "image": "buildings/medieval_lumber_blue",
-    "scale": 0.75
+    "scale": 1.5
   },
   "properties": {
     "health": 15,
@@ -260,7 +260,7 @@
     "name": "red_CavalryCamp",
     "sprite": {
       "image": "buildings/medieval_lumber_red",
-      "scale": 0.75
+      "scale": 1.5
     },
     "properties": {
       "health": 15,
