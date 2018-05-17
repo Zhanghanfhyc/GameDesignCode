@@ -165,15 +165,15 @@
     "name": "blue_Barrack",
     "sprite": {
       "image": "buildings/medieval_archery_blue",
-      "scale": 1.5
+      "scale": 0.75
     },
     "properties": {
       "health": 10,
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "gold":10
+      "wood": 25,
+      "gold": 50
     },
     "_actions": [
       "Build[blue_solider]",
@@ -184,15 +184,15 @@
     "name": "red_Barrack",
     "sprite": {
       "image": "buildings/medieval_archery_red",
-      "scale": 1.5
+      "scale": 0.75
     },
     "properties": {
       "health": 10,
       "defence": 3
     },
     "cost": {
-      "wood": 0
-
+      "wood": 25,
+      "gold": 50
     },
     "_actions": [
       "Build[red_solider]",
@@ -203,15 +203,15 @@
     "name": "blue_Factory",
     "sprite": {
       "image": "buildings/medieval_blacksmith_blue",
-      "scale": 1.5
+      "scale": 0.75
     },
     "properties": {
       "health": 8,
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 25,
+      "gold": 70
     },
     "_actions": [
       "Build[blue_archer]",
@@ -222,15 +222,15 @@
     "name": "red_Factory",
     "sprite": {
       "image": "buildings/medieval_blacksmith_red",
-      "scale": 1.5
+      "scale": 0.75
     },
     "properties": {
       "health": 8,
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 25,
+      "gold": 70
     },
     "_actions": [
       "Build[red_archer]",
@@ -241,16 +241,16 @@
   "name": "blue_CavalryCamp",
   "sprite": {
     "image": "buildings/medieval_lumber_blue",
-    "scale": 1.5
+    "scale": 0.75
   },
   "properties": {
     "health": 15,
     "defence": 3
   },
-  "cost": {
-    "wood": 10,
-    "rock": 10
-  },
+    "cost": {
+      "wood": 30,
+      "gold": 60
+    },
   "_actions": [
     "Build[blue_cavalry]",
     "MeleeAttackAction"
@@ -260,15 +260,15 @@
     "name": "red_CavalryCamp",
     "sprite": {
       "image": "buildings/medieval_lumber_red",
-      "scale": 1.5
+      "scale": 0.75
     },
     "properties": {
       "health": 15,
       "defence": 3
     },
     "cost": {
-      "wood": 10,
-      "rock": 10
+      "wood": 30,
+      "gold": 60
     },
     "_actions": [
       "Build[red_cavalry]",
@@ -286,8 +286,8 @@
       "defence": 3
     },
     "cost": {
-      "wood": 50,
-      "rock": 50
+      "wood": 80,
+      "gold": 80
     },
     "_actions": [
       "Build[red_famer]",
@@ -306,8 +306,8 @@
       "defence": 1
     },
     "cost": {
-      "wood": 50,
-      "rock": 50
+      "wood": 80,
+      "gold": 80
     },
     "_actions": [
       "Build[blue_famer]",

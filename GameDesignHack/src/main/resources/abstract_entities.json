@@ -12,6 +12,10 @@
     "ter-grass": 1,
     "food":2
   },
+    "cost": {
+      "wood": 30,
+      "gold": 10
+    },
   "_actions": [
     "Move",
     "GameAttack"
@@ -43,6 +47,10 @@
       "defRanged": 2,
       "ter-grass": 1,
       "food":2
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 15
     },
     "_actions": [
       "Move",
@@ -76,6 +84,10 @@
       "ter-grass": 1,
       "food":2
     },
+    "cost": {
+      "wood": 10,
+      "gold": 10
+    },
     "_actions": [
       "game_move",
       "GameAttack"
@@ -95,6 +107,10 @@
       "atkRanged": 6,
       "defRanged": 1,
       "ter-grass": 1
+    },
+    "cost": {
+      "wood": 35,
+      "gold": 10
     },
     "_actions": [
       "Move",
