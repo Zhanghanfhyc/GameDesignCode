@@ -10,12 +10,12 @@
     "defMelee":0,
     "attackRange": 5,
     "defRanged": 3,
-    "ter-grass": 1,
-    "food":2
+    "ter-grass": 1
   },
   "_actions": [
     "Move",
     "GameAttack"
+
   ]
 },
   {
@@ -27,8 +27,11 @@
       "defMelee":0,
       "attackRange": 8,
       "defRanged": 5,
-      "ter-grass": 1,
-      "food":2
+      "ter-grass": 1
+    },
+    "cost":{
+      "wood":10,
+      "gold":20
     },
     "_actions": [
       "Move",
@@ -63,6 +66,10 @@
       "defRanged": 4,
       "ter-grass": 1,
       "food":2
+    },
+    "cost":{
+      "wood":10,
+      "gold":20
     },
     "_actions": [
       "Move",
@@ -115,6 +122,10 @@
       "atkRanged": 10,
       "defRanged": 2,
       "ter-grass": 1
+    },
+    "cost":{
+      "wood":10,
+      "gold":20
     },
     "_actions": [
       "Move",
