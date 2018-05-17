@@ -520,5 +520,14 @@
       }
     ]
   },
-  "startingResources": {}
+  "startingResources": {
+    "0":{
+      "gold":200,
+      "wood":200
+    },
+    "1":{
+      "gold":200,
+      "wood":200
+    }
+  }
 }

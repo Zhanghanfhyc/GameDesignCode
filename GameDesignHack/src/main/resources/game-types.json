@@ -8,7 +8,7 @@
     },
     "_actions":
     [
-      "UpgradeAction[blue_solider:blue_solider_2]"
+      "GameUpgrade[blue_solider:blue_solider_2]"
     ]
   },
 
@@ -46,7 +46,7 @@
     },
     "_actions":
     [
-      "UpgradeAction[blue_cavalry:blue_cavalry_2]"
+      "GameUpgrade[blue_cavalry:blue_cavalry_2]"
     ]
   },
   {
@@ -75,7 +75,7 @@
       "scale": 1.5
     },
     "_actions": [
-      "UpgradeAction[blue_archer:blue_archer_2]"
+      "GameUpgrade[blue_archer:blue_archer_2]"
     ]
   },
   {
@@ -133,7 +133,7 @@
       "scale": 1.5
     },
     "_actions": [
-      "UpgradeAction[red_solider:red_solider_2]"
+      "GameUpgrade[red_solider:red_solider_2]"
     ]
   },
   {
@@ -145,7 +145,7 @@
     },
     "_actions":
     [
-      "UpgradeAction[red_cavalry:red_cavalry_2]"
+      "GameUpgrade[red_cavalry:red_cavalry_2]"
     ]
 
 
@@ -158,7 +158,7 @@
       "scale": 1.5
     },
     "_actions": [
-      "UpgradeAction[red_archer:red_archer_2]"
+      "GameUpgrade[red_archer:red_archer_2]"
     ]
   },
   {
