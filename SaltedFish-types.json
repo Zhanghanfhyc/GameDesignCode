@@ -1,0 +1,326 @@
+[
+  {
+    "name":"blue_solider",
+    "_extends":"abstract_solider",
+    "sprite": {
+      "image": "units/blue_shield",
+      "scale": 1
+    },
+    "_actions":
+    [
+      "GameUpgrade[blue_solider:blue_solider_2]"
+    ]
+  },
+
+  {
+    "name":"blue_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/blue_shield_2",
+      "scale": 0.2
+    },
+    "_actions":
+    [
+
+    ]
+  },
+
+  {
+    "name":"red_solider_2",
+    "_extends":"abstract_solider_2",
+    "sprite": {
+      "image": "units/red_shield_2",
+      "scale": 0.2
+    },
+    "_actions":
+    [
+
+    ]
+  },
+  {
+    "name":"blue_cavalry",
+    "_extends":"abstract_cavalry",
+    "sprite": {
+      "image": "units/blue_ruler",
+      "scale": 1
+    },
+    "_actions":
+    [
+      "GameUpgrade[blue_cavalry:blue_cavalry_2]"
+    ]
+  },
+  {
+    "name":"blue_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/blue_spear_2",
+      "scale": 0.2
+    }
+
+  },
+  {
+    "name":"red_cavalry_2",
+    "_extends":"abstract_cavalry_2",
+    "sprite": {
+      "image": "units/red_spear_2",
+      "scale": 0.2
+    }
+
+  },
+  {
+    "name":"blue_archer",
+    "_extends":"abstract_archer",
+    "sprite": {
+      "image": "units/blue_spear",
+      "scale": 1
+    },
+    "_actions": [
+      "GameUpgrade[blue_archer:blue_archer_2]"
+    ]
+  },
+  {
+    "name":"blue_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/blue_shepard_2",
+      "scale": 0.2
+    }
+  },
+  {
+    "name":"red_archer_2",
+    "_extends":"abstract_archer_2",
+    "sprite": {
+      "image": "units/red_shepard_2",
+      "scale": 0.2
+    }
+  },
+  {
+    "name":"blue_famer",
+    "_extends":"abstract_famer",
+    "sprite": {
+      "image": "units/blue_worker",
+      "scale": 1
+    },
+    "_actions": [
+      "Build[blue_Barrack]",
+      "Build[blue_Factory]",
+      "Build[blue_CavalryCamp]",
+      "Mine[wood:10]",
+      "Mine[gold:10]"
+    ]
+  },
+  {
+    "name":"red_famer",
+    "_extends":"abstract_famer",
+    "sprite": {
+      "image": "units/red_worker",
+      "scale": 1
+    },
+    "_actions": [
+      "Build[red_Barrack]",
+      "Build[red_Factory]",
+      "Build[red_CavalryCamp]",
+      "Mine[wood:10]",
+      "Mine[gold:10]"
+    ]
+  },
+
+  {
+    "name":"red_solider",
+    "_extends":"abstract_solider",
+    "sprite": {
+      "image": "units/red_shield",
+      "scale": 1
+    },
+    "_actions": [
+      "GameUpgrade[red_solider:red_solider_2]"
+    ]
+  },
+  {
+    "name":"red_cavalry",
+    "_extends":"abstract_cavalry",
+    "sprite": {
+      "image": "units/red_ruler",
+      "scale": 1
+    },
+    "_actions":
+    [
+      "GameUpgrade[red_cavalry:red_cavalry_2]"
+    ]
+
+
+  },
+  {
+    "name":"red_archer",
+    "_extends":"abstract_archer",
+    "sprite": {
+      "image": "units/red_spear",
+      "scale": 1
+    },
+    "_actions": [
+      "GameUpgrade[red_archer:red_archer_2]"
+    ]
+  },
+  {
+    "name": "blue_Barrack",
+    "sprite": {
+      "image": "buildings/medieval_archery_blue",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 10,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 50
+    },
+    "_actions": [
+      "Build[blue_solider]",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+    "name": "red_Barrack",
+    "sprite": {
+      "image": "buildings/medieval_archery_red",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 10,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 50
+    },
+    "_actions": [
+      "Build[red_solider]",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+    "name": "blue_Factory",
+    "sprite": {
+      "image": "buildings/medieval_blacksmith_blue",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 8,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 70
+    },
+    "_actions": [
+      "Build[blue_archer]",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+    "name": "red_Factory",
+    "sprite": {
+      "image": "buildings/medieval_blacksmith_red",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 8,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 25,
+      "gold": 70
+    },
+    "_actions": [
+      "Build[red_archer]",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+  "name": "blue_CavalryCamp",
+  "sprite": {
+    "image": "buildings/medieval_lumber_blue",
+    "scale": 0.4
+  },
+  "properties": {
+    "health": 15,
+    "defence": 3,
+    "ter-grass":1
+  },
+    "cost": {
+      "wood": 30,
+      "gold": 60
+    },
+  "_actions": [
+    "Build[blue_cavalry]",
+    "MeleeAttackAction"
+  ]
+  },
+  {
+    "name": "red_CavalryCamp",
+    "sprite": {
+      "image": "buildings/medieval_lumber_red",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 15,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 30,
+      "gold": 60
+    },
+    "_actions": [
+      "Build[red_cavalry]",
+      "MeleeAttackAction"
+    ]
+  },
+  {
+    "name": "red_Castle",
+    "sprite": {
+      "image": "buildings/medieval_largeCastle",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 20,
+      "defence": 3,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 80,
+      "gold": 80
+    },
+    "_actions": [
+      "Build[red_famer]",
+      "MeleeAttackAction"
+      ]
+   },
+
+  {
+    "name": "blue_Castle",
+    "sprite": {
+      "image": "buildings/medieval_largeCastle_Blue",
+      "scale": 0.4
+    },
+    "properties": {
+      "health": 20,
+      "defence": 1,
+      "ter-grass":1
+    },
+    "cost": {
+      "wood": 80,
+      "gold": 80
+    },
+    "_actions": [
+      "Build[blue_famer]",
+      "MeleeAttackAction"
+      ]
+  }
+
+]
